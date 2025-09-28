@@ -1,0 +1,1 @@
+# GPO - Software Installation - Group Policy - Deployment - Winget
