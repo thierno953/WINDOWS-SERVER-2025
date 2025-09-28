@@ -1,1 +1,0 @@
-# RDP – Remote Desktop Protocol

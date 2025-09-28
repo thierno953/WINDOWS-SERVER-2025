@@ -1,1 +1,0 @@
-# Shared Resources – SMB – Printers in Windows/AD

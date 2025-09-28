@@ -1,1 +1,0 @@
-# MySQL - Workbench - Shell - Server - Winget
