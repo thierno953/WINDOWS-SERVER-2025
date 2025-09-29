@@ -68,7 +68,6 @@ Users, Apps    Shared Folders   Database
 
 1. Set up a virtualization platform (VirtualBox / VMware / Proxmox).
 2. Install **Windows Server (2019/2022/2025)** and **Windows 10 client**.
-3. Follow each task in order to build a complete domain + network services environment.
 
 ---
 
