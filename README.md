@@ -30,7 +30,7 @@ Includes domain setup, AD management, NAT, DNS, DHCP, RDP, FTPS, MySQL, and Grou
 ## Quick Start
 
 1. Set up a virtualization platform (VirtualBox / VMware / Proxmox).
-2. Install **Windows Server (2019/2022)** and **Windows 10 client**.
+2. Install **Windows Server (2019/2022/2025)** and **Windows 10 client**.
 3. Follow each task in order to build a complete domain + network services environment.
 
 ---
