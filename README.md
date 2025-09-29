@@ -12,18 +12,18 @@ Includes domain setup, AD management, NAT, DNS, DHCP, RDP, FTPS, MySQL, and Grou
 
 ## Tasks
 
-1. `Task01` → Configure LAN, WAN, NAT & Internal Network
-2. `Task02` → Promote to Domain Controller & Join Windows 10 to the Domain
-3. `Task03` → Users, Groups, and Organizational Units in Active Directory
-4. `Task04` → Shared Resources: SMB & Printers in Windows-AD
-5. `Task05` → SNAT, Routing & Network Configuration
-6. `Task06` → DNS - Domain Name System
-7. `Task07` → DHCP - Dynamic Host Configuration Protocol
-8. `Task08` → RDP - Remote Desktop Protocol
-9. `Task09` → FTPS - File Transfer Protocol Secure
-10. `Task10` → HTTP & HTTPS
-11. `Task11` → MySQL: Workbench, Shell, Server & Winget
-12. `Task12` → GPO: Software Installation & Deployment via Group Policy
+1. `Task01` -> Configure LAN, WAN, NAT & Internal Network
+2. `Task02` -> Promote to Domain Controller & Join Windows 10 to the Domain
+3. `Task03` -> Users, Groups, and Organizational Units in Active Directory
+4. `Task04` -> Shared Resources: SMB & Printers in Windows-AD
+5. `Task05` -> SNAT, Routing & Network Configuration
+6. `Task06` -> DNS - Domain Name System
+7. `Task07` -> DHCP - Dynamic Host Configuration Protocol
+8. `Task08` -> RDP - Remote Desktop Protocol
+9. `Task09` -> FTPS - File Transfer Protocol Secure
+10. `Task10` -> HTTP & HTTPS
+11. `Task11` -> MySQL: Workbench, Shell, Server & Winget
+12. `Task12` -> GPO: Software Installation & Deployment via Group Policy
 
 ---
 
@@ -45,6 +45,6 @@ Includes domain setup, AD management, NAT, DNS, DHCP, RDP, FTPS, MySQL, and Grou
 
 ---
 
-## 👤 Author
+## Author
 
-**thierno953** – System & Network Administration | Active Directory | Cybersecurity Enthusiast
+**thierno953** - System & Network Administration | Active Directory | Cybersecurity Enthusiast
