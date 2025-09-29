@@ -10,6 +10,29 @@ Includes domain setup, AD management, NAT, DNS, DHCP, RDP, FTPS, MySQL, and Grou
 
 ---
 
+## Network & Domain Topology
+
+```sh
+                    ┌───────────────┐
+                    │     WAN       │
+                    │   Internet    │
+                    └───────┬───────┘
+                            │
+                     ┌──────▼──────┐
+                     │  Windows DC  │
+                     │ (AD, DNS,    │
+                     │  DHCP, GPO)  │
+                     └──────┬──────┘
+        ┌───────────────┼───────────────┐
+        │               │               │
+ ┌──────▼──────┐  ┌─────▼──────┐  ┌─────▼─────┐
+ │ Windows 10  │  │ File/FTPS  │  │ MySQL      │
+ │ Domain User │  │  Server    │  │ Server     │
+ └─────────────┘  └────────────┘  └────────────┘
+```
+
+---
+
 ## Tasks
 
 1. `Task01` -> Configure LAN, WAN, NAT & Internal Network
