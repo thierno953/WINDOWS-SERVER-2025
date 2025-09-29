@@ -1,31 +1,45 @@
 # Windows & Network Services Project
 
-[![Windows Server](https://img.shields.io/badge/Windows-Server-0078D6?logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/windows-server/)
-[![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity-blue)](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+[![Windows Server](https://img.shields.io/badge/Windows-Server-0078D6?logo=windows&logoColor=white)]()
+[![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity-blue)]()
 [![Status](https://img.shields.io/badge/Status-Learning-green)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
 A hands-on project covering **Windows Server Active Directory** and essential **network services**.
-Includes domain setup, AD management, NAT, DNS, DHCP, RDP, FTPS, MySQL, and Group Policy software deployment.
+
+## Objectives
+
+This project provides hands-on experience in building and managing a Windows Server Active Directory environment with essential network services.
+Key objectives include:
+
+- Setting up a domain controller and joining Windows 10 clients.
+- Managing users, groups, and organizational units in AD.
+- Configuring DNS, DHCP, NAT, and routing.
+- Deploying secure network services (RDP, FTPS, HTTP/HTTPS, MySQL).
+- Automating software deployment with Group Policy and Winget.
 
 ---
 
 ## Network & Domain Topology
 
-```sh
-                    ┌───────────────┐
-                    │     WAN       │
-                    │   Internet    │
-                    └───────┬───────┘
-                            │
-                     ┌──────▼──────┐
-                     │  Windows DC  │
-                     │ (AD, DNS,    │
-                     │  DHCP, GPO)  │
-                     └──────┬──────┘
-        ┌───────────────┼───────────────┐
-        │               │               │
- ┌──────▼──────┐  ┌─────▼──────┐  ┌─────▼─────┐
+```text
+        ┌───────────────┐
+        │     WAN       │
+        │   Internet    │
+        └───────┬───────┘
+                │
+         ┌──────▼──────┐
+         │  Windows DC  │
+         │ AD, DNS, DHCP│
+         │ GPO, RDP     │
+         └──────┬──────┘
+ ┌───────────────┼───────────────┐
+ │               │               │
+▼               ▼               ▼
+Windows 10     File/FTPS       MySQL
+Client         Server           Server
+Users, Apps    Shared Folders   Database
+──────▼──────┐  ┌─────▼──────┐  ┌─────▼─────┐
  │ Windows 10  │  │ File/FTPS  │  │ MySQL      │
  │ Domain User │  │  Server    │  │ Server     │
  └─────────────┘  └────────────┘  └────────────┘
